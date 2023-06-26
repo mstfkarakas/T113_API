@@ -8,11 +8,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor // @NoArgsConstructor notasyonu Parametresiz Constructor olusturur
 @AllArgsConstructor // @AllArgsConstructor notasyonu tum argumanlari iceren parametreli Constructor'i olusturur
 
-public class BookingDatesPOJO {
+public class BookingdatesPOJO {
 
     /*
-                                "checkin" : "2021-06-01",
-    	                        "checkout" : "2021-06-10"
+                        "bookingdates" : {
+                                 "checkin" : "2021-06-01",
+                                 "checkout" : "2021-06-10"
+                                          },
      */
 
     private String checkin;
