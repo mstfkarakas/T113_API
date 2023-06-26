@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
 public class BookingPOJO {
 
     /*
-     {
+                    {
     	                "firstname" : "Ali",
-    	                "lastname" : “Bak",
+    	                "lastname" : "Bak",
     	                "totalprice" : 500,
     	                "depositpaid" : false,
     	                "bookingdates" : {
@@ -27,9 +27,6 @@ public class BookingPOJO {
     private String lastname;
     private int totalprice;
     private Boolean depositpaid;  // boolean ve Booolean Getter ve Setter'larda "is" farki ile doner.
-    private BookingDatesPOJO bookingdates;  // Kendi olusturdugumuz class'lar da data type olarak kullanilabilir.
+    private BookingdatesPOJO bookingdates;  // Kendi olusturdugumuz class'lar da data type olarak kullanilabilir.
     private String additionalneeds;
-
-
-
 }
